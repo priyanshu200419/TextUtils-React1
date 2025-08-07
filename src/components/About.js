@@ -15,10 +15,6 @@ export default function About(props) {
   borderColor:props.mode=== 'dark'?'white':'black',
   }
 
-  const toggleMode = () => {
-    setDarkMode(!darkMode);
-  };
-
   return (
     <>
       <div className="container" style={myStyle}>
