@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function About(props) {
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
 
   // const myStyle = {
   //   color: darkMode ? 'white' : 'red',
